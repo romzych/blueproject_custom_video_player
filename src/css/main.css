@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 
-.video-block{
+.video-js{
     box-shadow: 4px 4px 12px #555;
 }
 
@@ -20,4 +20,10 @@ body{
 
 .vjs-remaining-time-display{
     color: red;
+}
+
+.video-block{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
 }
