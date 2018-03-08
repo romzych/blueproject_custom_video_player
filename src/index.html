@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Video.js | Lecteur vidéo personnalisé</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../node_modules/video.js/dist/video-js.css">
+    <script src="../node_modules/video.js/dist/video.js"></script>
+    <script src="../node_modules/videojs-watermark/dist/videojs-watermark.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/videojs-watermark/dist/videojs-watermark.css">
+    <script src="../node_modules/videojs-hotkeys/videojs.hotkeys.js"></script>
+
+</head>
+<body>
+
+<div class="video-block">
+    <video id="player_id_tag" width="640px" height="267px" class="video-js vjs-default-skin vjs-big-play-centered" poster="bones.jpg" data-setup='{ "aspectRatio":"640:267","playbackRates": [0.5, 1, 1.5, 2] }'>
+        <source type="video/mp4" src="bones.mp4">
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+    </video>
+</div>
+
+</body>
+
+<footer>
+    <script src="js/main.js"></script>
+</footer>
+</html>

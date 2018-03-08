@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.video-block{
+    box-shadow: 4px 4px 12px #555;
+}
+
+.vjs-icon-placeholder{
+    color: red;
+}
+
+.vjs-play-progress{
+    color: red;
+}
+
+.vjs-playback-rate-value{
+    color: red;
+}
+
+.vjs-remaining-time-display{
+    color: red;
+}
